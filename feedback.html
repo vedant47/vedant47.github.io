@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>&copy;Login Page</title>
+<link rel="shortcut icon" type="image/png" href="favicon.png" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="nav.css" type="text/css">
+<link rel="stylesheet" href="feedback.css" type="text/css">
+<script>
+function toggleSidebar(ref)
+ {
+  ref.classList.toggle('active');
+  document.getElementById('sidebar').classList.toggle('active');
+	 
+}
+</script>
+<style type="text/css">
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+#wrapper 
+{
+  width:300px;
+ float:right;
+ height:40px;
+ margin:10px;
+
+}
+.box
+{
+ width:50px;
+ height:50px;
+  float:right;
+ display:block-inline;
+ border-radius:50px;
+ font-family:entypo;
+ color:#212121;
+ background:#fff;
+ text-align:center;
+ line-height:50px;
+ font-size:25px;
+ cursor:pointer;
+ margin:10px;
+ transition:1s;
+}
+.box:hover
+{
+ color:#fff;
+ transform:scale(1.15);
+ transition:1s;
+}
+
+#facebook:hover
+{
+ background-color:rgb(59,89,152);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#twitter:hover
+{
+ background-color:rgb(85, 172, 283);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#google:hover
+{
+ background-color:rgb(221, 75, 57);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#linkedin:hover
+{
+ background-color:rgb(0, 123, 181);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#sidebar img
+{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+#sidebar ul li a
+{
+	text-decoration:none;
+	color:hsla(0,30%,96%,1.00);
+}
+#sidebar ul li a:hover
+{
+	font-size:25px;
+	color:hsla(0,0%,100%,1.00);
+}
+</style>
+</head>
+<body>
+<div id="sidebar">
+<img src="unnamed (1) - Copy.png">
+<hr color="#222222">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+     <li><a href="feedback.html">Feedback</a></li>
+  </ul>
+</div>
+<div id="toggle-btn" onclick="toggleSidebar(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div id="wrapper">
+<a href="https://www.facebook.com/"><div class="box" id="facebook">&#62220;</div></a>
+<a href="https://twitter.com/"><div class="box" id="twitter" >&#62217;</div></a>
+<a href="https://www.google.com/"><div class="box" id="google">&#62223;</div></a>
+<a href="https://in.linkedin.com/https://in.linkedin.com/"><div class="box" id="linkedin">&#62232;</div></a>
+</div>
+
+      <div class="login">
+           <h1>Student Feedback</h1>
+           <br>
+           <h4>Please help us to improve our cources by filling the form</h4>
+           <br>
+        <form name="f1"method="post">
+		   <p>Teacher / Instructor name</p>
+		   <input type="text" name="uname" placeholder="Enter name" required>
+          <div style="	border:none;
+						border-bottom:1px solid;
+						border-bottom-color:#FFF;
+						background:transparent;
+						color:#FFF;
+						font-size:16px;
+						width:100%;
+						margin-bottom:20px;">
+						why did you choose this course<br/>
+			<select style="border:none;
+				  		background:transparent;
+						outline:none;
+						height:40px;
+						color:#FFF;
+						font-size:16px;
+						width:100%;">
+		<option>Degree requirment</option>
+		<option>Personal intrest</option>
+	</select>
+</div>
+
+		   <div style="	border:none;
+						border-bottom:1px solid;
+						border-bottom-color:#FFF;
+						background:transparent;
+						color:#FFF;
+						font-size:16px;
+						width:100%;
+						margin-bottom:20px;">
+						Level of knowledge on start of course<br/>
+			<select style="border:none;
+				  		background:transparent;
+						outline:none;
+						height:40px;
+						color:#FFF;
+						font-size:16px;
+						width:100%;">
+		<option>Very good</option>
+		<option>Good</option>
+		<option>Fair</option>
+		<option>Poor</option>
+		<option>Very poor</option>
+	</select>
+</div>
+<div style="	border:none;
+						border-bottom:1px solid;
+						border-bottom-color:#FFF;
+						background:transparent;
+						color:#FFF;
+						font-size:16px;
+						width:100%;
+						margin-bottom:20px;">
+						Level of effort invested in course<br/>
+			<select style="border:none;
+				  		background:transparent;
+						outline:none;
+						height:40px;
+						color:#FFF;
+						font-size:16px;
+						width:100%;">
+		<option>Very good</option>
+		<option>Good</option>
+		<option>Fair</option>
+		<option>Poor</option>
+		<option>Very poor</option>
+	</select>
+</div><div style="	border:none;
+						border-bottom:1px solid;
+						border-bottom-color:#FFF;
+						background:transparent;
+						color:#FFF;
+						font-size:16px;
+						width:100%;
+						margin-bottom:20px;">
+						Level of knowledge at the end of the course<br/>
+			<select style="border:none;
+				  		background:transparent;
+						outline:none;
+						height:40px;
+						color:#FFF;
+						font-size:16px;
+						width:100%;">
+		<option>Very good</option>
+		<option>Good</option>
+		<option>Fair</option>
+		<option>Poor</option>
+		<option>Very poor</option>
+	</select>
+</div><div style="	border:none;
+						border-bottom:1px solid;
+						border-bottom-color:#FFF;
+						background:transparent;
+						color:#FFF;
+						font-size:16px;
+						width:100%;
+						margin-bottom:20px;">
+						Level of communication<br/>
+			<select style="border:none;
+				  		background:transparent;
+						outline:none;
+						height:40px;
+						color:#FFF;
+						font-size:16px;
+						width:100%;">
+		<option>Very good</option>
+		<option>Good</option>
+		<option>Fair</option>
+		<option>Poor</option>
+		<option>Very poor</option>
+	</select>
+</div><div style="	border:none;
+						border-bottom:1px solid;
+						border-bottom-color:#FFF;
+						background:transparent;
+						color:#FFF;
+						font-size:16px;
+						width:100%;
+						margin-bottom:20px;">
+						Would you recommend this course to other students?<br/>
+			<select style="border:none;
+				  		background:transparent;
+						outline:none;
+						height:40px;
+						color:#FFF;
+						font-size:16px;
+						width:100%;">
+	    <option>Yes</option>
+		<option>No</option>
+		<option>Not sure</option>
+	</select>
+</div>
+		   <input type="submit" value="Submit">
+        </form>
+     </div>
+      <div id="particles-js"></div>
+		<script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript"  src="app.js"></script>
+		<script type="text/javascript" src="particles.js" ></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>&copy;Login Page</title>
+<link rel="shortcut icon" type="image/png" href="favicon.png" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="nav.css" type="text/css">
+<script>
+function toggleSidebar(ref)
+ {
+  ref.classList.toggle('active');
+  document.getElementById('sidebar').classList.toggle('active');
+	 
+}
+</script>
+<style type="text/css">
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+body
+{
+	overflow-y : auto;
+	
+}
+#wrapper 
+{
+  width:300px;
+ float:right;
+ height:40px;
+ margin:10px;
+
+}
+.box
+{	
+ width:50px;
+ height:50px;
+  float:right;
+ display:block-inline;
+ border-radius:50px;
+ font-family:entypo;
+ color:#212121;
+ background:#fff;
+ text-align:center;
+ line-height:50px;
+ font-size:25px;
+ cursor:pointer;
+ margin:10px;
+ transition:1s;
+}
+.box:hover
+{
+ color:#fff;
+ transform:scale(1.15);
+ transition:1s;
+}
+
+#facebook:hover
+{
+ background-color:rgb(59,89,152);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#twitter:hover
+{
+ background-color:rgb(85, 172, 283);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#google:hover
+{
+ background-color:rgb(221, 75, 57);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#linkedin:hover
+{
+ background-color:rgb(0, 123, 181);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#sidebar img
+{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+#sidebar ul li a
+{
+	text-decoration:none;
+	color:hsla(0,30%,96%,1.00);
+}
+#sidebar ul li a:hover
+{
+	font-size:25px;
+	color:hsla(0,0%,100%,1.00);
+}
+.login
+{
+	width:800px;
+	height:790px;
+	background:rgba(0,0,0,0.8);
+	color:#fff;
+	top:75%;
+	left:50%;
+	bottom:20%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:45px 30px;
+}
+.login h1
+{
+	width:1000px;
+	height:100px;
+	position:absolute;
+	top:-32px;
+	left:calc(50%, - 50px);
+	padding-left:27%;
+}
+.table 
+{
+	color:#fff;
+}
+.table tr td
+{
+	color:white;
+	padding-left:15px;
+	padding-bottom:10px;
+	padding-right:10px;
+}
+.table th
+{
+	color:#fff;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;	
+	padding-right:15px;
+
+}
+</style>
+</head>
+<body>
+<div id="sidebar">
+<img src="unnamed (1) - Copy.png">
+<hr color="#222222">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+     <li><a href="feedback.html">Feedback</a></li>
+  </ul>
+</div>
+<div id="toggle-btn" onclick="toggleSidebar(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div id="wrapper">
+<a href="https://www.facebook.com/"><div class="box" id="facebook">&#62220;</div></a>
+<a href="https://twitter.com/"><div class="box" id="twitter" >&#62217;</div></a>
+<a href="https://www.google.com/"><div class="box" id="google">&#62223;</div></a>
+<a href="https://in.linkedin.com/https://in.linkedin.com/"><div class="box" id="linkedin">&#62232;</div></a>
+</div>
+
+      <div class="login">
+      	<h1>RS Infotech</h1>
+      	<h2>Welcome to R. S. INFOTECH</h2>
+
+      	<br>
+      	<br>
+<pre>
+		R.S INFOTECH is the IT company and has an experience of more than 16 years in the field of
+
+hardware, software and networking solutions. Situated in the heart of Vadodara an Industrial Estate and in the
+
+proximity of theeducational town of Vadodara.
+
+		R.S INFOTECH is one of the competent solution providers in the field of Information
+
+Technology. Our technical expertise make us accomplished to provide perfect and amicable solutions to all our
+
+clients IT related requirements.
+
+		The expert analysts and consultants at R.S INFOTECH work to provide with a comprehensive
+
+look of the entire IT landscape and also detailed perspective on client's key areas of concern. These can be
+
+in the form of feasibility studies, evaluations, implementation, and maintenance of various IT solutions.
+
+
+
+<h2>Awards</h2>
+</pre>
+<div class="table">
+<table border>
+  <tr>
+    <th>Award Name</th>
+    <th>Company Name</th> 
+  </tr>
+  <tr>
+    <td>Best Supportive Partner (Boroda)</td>
+    <td><img src="unnamed (1).png"></td>
+    <br>
+  </tr>
+  <tr>
+  	 <td>	Quad Core Champion (Baroda)</td> 
+  	 <td><img src="unnamed (1).png"></td> 
+  </tr>
+  <tr>
+  	 <td>	Elite Partner (Baroda)</td>
+  	  <td><img src="Sony-Logo-Vectors-icons-Free-Download.jpg"  width="80px" height="60px"></td> 
+  </tr>
+</table>
+      </div>
+  </div>
+      <div id="particles-js"></div>
+		<script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript"  src="app.js"></script>
+		<script type="text/javascript" src="particles.js" ></script>
+</body>
+</html>

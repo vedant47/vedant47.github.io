@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>&copy; R.S Infotech</title>
+<link rel="shortcut icon" type="image/png" href="favicon.png" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="nav.css" type="text/css">
+<script>
+function toggleSidebar(ref)
+ {
+  ref.classList.toggle('active');
+  document.getElementById('sidebar').classList.toggle('active');
+	 
+}
+</script>
+<style type="text/css">
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-image:url(tron.jpg);
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+body
+{
+	 overflow-y : auto;
+}
+#wrapper 
+{
+  width:300px;
+ float:right;
+ height:40px;
+ margin:10px;
+
+}
+.box
+{
+ width:50px;
+ height:50px;
+  float:right;
+ display:block-inline;
+ border-radius:50px;
+ font-family:entypo;
+ color:#212121;
+ background:#fff;
+ text-align:center;
+ line-height:50px;
+ font-size:25px;
+ cursor:pointer;
+ margin:10px;
+ transition:1s;
+}
+.box:hover
+{
+ color:#fff;
+ transform:scale(1.15);
+ transition:1s;
+}
+
+#facebook:hover
+{
+ background-color:rgb(59,89,152);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#twitter:hover
+{
+ background-color:rgb(85, 172, 283);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#google:hover
+{
+ background-color:rgb(221, 75, 57);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#linkedin:hover
+{
+ background-color:rgb(0, 123, 181);
+ box-shadow:insert 0 0 0 22px #3A5795;
+ transform:rotate(360deg) scale(1.15);
+ transition:1s;
+}
+#sidebar img
+{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+#sidebar ul li a
+{
+	text-decoration:none;
+	color:hsla(0,30%,96%,1.00);
+}
+#sidebar ul li a:hover
+{
+	font-size:25px;
+	color:hsla(0,0%,100%,1.00);
+}
+.login
+{
+	width:320px;
+	height:470px;
+	background:rgba(0,0,0,0.7);
+	color:#fff;
+	top:55%;
+	left:85%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:45px 30px;
+}
+.login h1
+{
+	width:1000px;
+	height:100px;
+	position:absolute;
+	top:-25px;
+	left:calc(50%, - 50px);
+	padding-left:1%;
+	font-size:40px;
+}
+.login p
+{
+	 margin:0;
+	 padding:0;
+	 font-weight:bold;
+	 font-size:20px;
+}
+
+.login input
+{
+	width:100%;
+	margin-bottom:20px;
+	
+}
+.login input[type="text"], input[type="text"], input[type="text"]
+{
+	border:none;
+	border-bottom:1px solid;
+	border-bottom-color:#FFF;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#FFF;
+	font-size:16px;
+}
+
+.login input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:white;
+	font-size:18px;
+	border-radius:20px;
+}
+
+.login input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+#iframe
+{
+	padding-left:90px;
+	padding-top:20px;
+}
+#iframe b h1
+{
+	color:white;
+	padding-top:50px;
+
+</style>
+</head>
+<body>
+<div id="sidebar">
+<img src="unnamed (1) - Copy.png">
+<hr color="#222222">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+     <li><a href="feedback.html">Feedback</a></li>
+  </ul>
+</div>
+<div id="toggle-btn" onclick="toggleSidebar(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div id="wrapper">
+<a href="https://www.facebook.com/"><div class="box" id="facebook">&#62220;</div></a>
+<a href="https://twitter.com/"><div class="box" id="twitter" >&#62217;</div></a>
+<a href="https://www.google.com/"><div class="box" id="google">&#62223;</div></a>
+<a href="https://in.linkedin.com/https://in.linkedin.com/"><div class="box" id="linkedin">&#62232;</div></a>
+</div>
+<div id="iframe">
+	<b><h1>Rs Infotech</h1></b>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.653741859351!2d72.82820331447354!3d19.384139986911826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aec0ddb784b5%3A0xe726a8f5705c341e!2sR.+S.+Infotech+Computer+Classes!5e0!3m2!1sen!2sin!4v1536909313341" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="login">
+
+	<form name="f1">
+		<h1>Contact</h1>
+		   <p>Student Name</p>
+		   <input type="text" name="uname" placeholder="Enter your name" required>
+		   <p>E-mail</p>
+           <input type="text" name="pwd" placeholder="Enter your email">
+           <p>Contact Number</p>
+           <input type="text" name="num" placeholder="Enter your number">
+           <p>Commennt</p>
+           <input type="text" name="msg" placeholder="Comment">
+           <input type="submit" value="submit">
+</body>
+</html>

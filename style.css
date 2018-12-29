@@ -1,0 +1,48 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-image:url(outer-space-stars-17_www.FullHDWpp.com_-min.jpg);
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 15px;
+}
+
+#label
+{
+	color:#FFF;
+	position:absolute;
+	text-align: center;
+	top: 40%;
+	width: 100%;
+	line-height: 0.4cm;	
+
+}
+
+h1
+{
+	font-size: 50px;
+}
+
+.button
+{
+	color: #fff;
+	text-decoration: none;
+	border:#ccc 5px solid;
+	padding: 10px 15px;
+	border-radius: 8px;
+	line-height: 3cm;
+	background-color:#000;
+}
+.name
+{
+	text-decoration:none;
+	color:white;
+}
+
+#particles-js
+{
+	height: 100%;
+
+}
+
