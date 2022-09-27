@@ -3,9 +3,82 @@
 <head>
 
 <meta charset="utf-8">
-<title>&copy;HAPPY 1 YEAR</title>
+<title>&copy;HAPPY JOURNEY LOVEEE</title>
 <link rel="stylesheet" href="style.css" type="text/css">
 <style type="text/css">
+
+  .button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+body {
+  background-image: url("6599570.jpg");
+}
+.light {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+     bottom: 295px;
+  position: absolute;
+  z-index: 10;
+  left: 20px;
+  animation: light 800ms ease-in-out 0s infinite alternate;
+}
+.cloud {
+  position: absolute;
+  top: 0px;
+  right: -500px;
+  opacity: 1;
+   animation: cloud 10s linear 0s infinite reverse;
+  z-index: 99;
+}
+@keyframes light {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes cloud {
+  from {right:-500px;}
+  to {right: 102%;}
+}
 /* general styling */
 :root {
   --smaller: .75;
@@ -105,7 +178,7 @@ li span {
       mm = String(today.getMonth() + 1).padStart(2, "0"),
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
-      dayMonth = "02/15/",
+      dayMonth = "10/15/",
       birthday = dayMonth + yyyy;
   
   today = mm + "/" + dd + "/" + yyyy;
@@ -127,7 +200,7 @@ li span {
 
         //do something later when date is reached
         if (distance < 0) {
-          document.getElementById("headline").innerText = "Happy 1 Year Loveeeeee";
+          document.getElementById("headline").innerText = "I'LL MISS YOU LOVEEE";
           document.getElementById("countdown").style.display = "none";
           document.getElementById("content").style.display = "block";
           clearInterval(x);
@@ -139,12 +212,11 @@ li span {
 </script>
 </head>
 <body>
-
+  <div class="cloud cloud1">
+    <div class="light"></div>
+  <img  src="https://images.vexels.com/media/users/3/145795/isolated/preview/05cd33059a006bf49006097af4ccba98-plane-in-flight-by-vexels.png" /></div>
 	
-	<div class="container">
-
-
-
+	<!-- <div class="container">
   <h1 id="headline"><b>Countdown to our 2 year</b> </h1>
     <div id="countdown">
     <ul>
@@ -159,22 +231,29 @@ li span {
     <span>❤️</span>
     <span>❤️</span>
   </div>
-</div>
-	<div id="label">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-        <br>
-    <br>
-		<br>
-		<br>
-		<br>
-		<br>
+</div> -->
 
-		<center><a href="about.html" class="button">Click Here Babe</a></center>
+
+<div class="container">
+  <h1 id="headline"><b>HAPPY jOURNEY LOVEEE</b> </h1>
+    <div id="countdown">
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+  <div id="content" class="emoji">
+    <span>❤️</span>
+    <!-- <span>❤️</span> -->
+    <!-- <span>❤️</span> -->
+  </div>
+</div>
+
+
+	<div id="label" style="padding-top: 15rem;">
+		<center><a href="about.html" class="button-73">Click Here Babe</a></center>
 		<!--Bringing the copyright link at the bottom of the page-->
 
 
